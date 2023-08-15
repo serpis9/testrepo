@@ -1,0 +1,46 @@
+{
+    "name": "<nameplaceholder>",
+    "version": "0.0.1",
+    "description": "",
+    "scripts": {
+        "start": "core ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "<urlplaceholder>"
+    },
+    "dependencies": {
+        "@platformeco/fastify-connector": "2.0.2",
+        "@platformeco/superagent-connector": "4.9.0",
+        "@platformeco/kafka-connector": "3.4.2",
+        "@platformeco/mongo-connector": "1.1.0",
+        "@platformeco/postgres-connector": "1.11.0",
+        "@platformeco/amqplib-connector": "1.10.0",
+        "@platformeco/ftp-connector": "3.0.0",
+        "@platformeco/ioredis-connector": "2.8.0",
+        "@platformeco/jdbc-connector": "3.1.0",
+        "@platformeco/slack-connector": "0.6.0",
+        "@platformeco/socketio-connector": "2.2.0",
+        "@platformeco/delay-policy": "1.0.0",
+        "@platformeco/buffertojson-policy": "3.1.0",
+        "@platformeco/buffertostring-policy": "3.1.0",
+        "@platformeco/crypto-policy": "1.0.2",
+        "@platformeco/csvtojson-policy": "1.0.1",
+        "@platformeco/jsonschema-policy": "4.2.0",
+        "@platformeco/jsontobuffer-policy": "3.0.1",
+        "@platformeco/jsontocsv-policy": "1.0.0",
+        "@platformeco/jwt-policies": "1.2.0",
+        "@platformeco/setlogs-policy": "1.0.1",
+        "@platformeco/settags-policy": "4.0.0",
+        "@platformeco/vault-loader": "4.1.0",
+        "@platformeco/xmltojson-policy": "3.0.1",
+        "@platformeco/zip-policies": "1.0.1",
+        "@platformeco/array-policies": "1.2.0",
+        "@platformeco/date-policies": "1.1.0",
+        "@platformeco/smtp-connector": "1.0.1"
+    },
+    "devDependencies": {
+        "@platformeco/core": "3.8.1"
+    },
+    "author": "Leroy Merlin / Platformeco"
+}
